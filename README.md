@@ -4,7 +4,7 @@ Not 100% accurate. More mimicking the feel than anything. Pretty old looking, bu
 
 Detailed info on how to make changes to this code on the [AO3 version](https://archiveofourown.org/works/45107263/chapters/113472118#workskin).
 
-This repository also includes the CSS/HTML for the AO3 version itself. I sniped some code from the following people/fics to make it:
+This repository also includes the CSS/HTML for the AO3 "fic" itself. I sniped some code from the following people/fics to make it:
 - [Making a variable-width tooltip for mobile and desktop](https://archiveofourown.org/works/38363089) by Akzeal
 - [How to Make a "Choose Your Own Adventure" Fic](https://archiveofourown.org/works/11514573) by La_Temperanza
 - [Personal Experiment with HTML and CSS (Remove Chapter Titles)](https://archiveofourown.org/collections/A_Guide_to_Coding_and_Fanworks/works/15685086) by MohnblumenKind
