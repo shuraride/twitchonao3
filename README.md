@@ -2,7 +2,7 @@
 
 Not 100% accurate. More mimicking the feel than anything. Kinda old looking, but that's just Twitch's chat box style. Rounded corners would make it look more 'modern'.
 
-Detailed info on how to make changes to this code on the AO3 version.
+Detailed info on how to make changes to this code on the [AO3 version](https://archiveofourown.org/works/45107263/chapters/113472118#workskin).
 
 This repository also includes the CSS/HTML for the AO3 version itself. I sniped some code from the following people/fics to make it:
 - [Making a variable-width tooltip for mobile and desktop](https://archiveofourown.org/works/38363089) by Akzeal
