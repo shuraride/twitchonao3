@@ -1,174 +1,173 @@
- .darkcontainer {
-    max-width: 400px;
-    margin: auto;
-    background: #18181b;
-    padding: 0;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-    font-family: Helvetica,Arial,sans-serif;
-    border: 1px solid #0e0e10;
-    margin-bottom: 20px;
-  }
-  
-  .darkcenter-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .darkheader {
-    color: #bdbab9;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    padding: 2px 5px 2px 15px;
-    font-family: Helvetica,Arial,sans-serif;
-  }
-  
-  .darkchat-box {
-    margin: auto;
-    display: block;
-    float: none;
-    padding: 1em 1em 1em 1em;
-    font-size: small;
-    color: #bdbab9;
-    overflow: auto;
-    overflow-y: scroll;
-    max-height: 300px;
-  }
-  
-  .darkchat-box>p {
-    display: block;
-    padding: 4px 5px 4px 5px;
-    margin: unset;
-  }
-  
-  .darkchat-box>p:hover {
-    background-color: #0e0e10;
-    border-radius: 5px;
-  }
-  
-  .darkchat-box :nth-of-type(7n+1) b {
-    color: #1E90FF;
-  }
-  
-  .darkchat-box :nth-of-type(7n+2) b {
-    color: #FF0001;
-  }
-  
-  .darkchat-box :nth-of-type(7n+3) b {
-    color: #FF7F50;
-  }
-  
-  .darkchat-box :nth-of-type(7n+4) b {
-    color: #9ACD32;
-  }
-  
-  .darkchat-box :nth-of-type(7n+5) b {
-    color: #8A2BE2;
-  }
-  
-  .darkchat-box :nth-of-type(7n+6) b {
-    color: #FF69B4;
-  }
-  
-  .darkchat-box :nth-of-type(7n) b {
-    color: #5F9EA0;
-  }
-  
-  .darkchat-box b:hover,
-  .darkchat-box .mod:hover,
-  .darkchat-box .nightbot:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  
-  .darkchat-box .mod {
-    font-weight: bold;
-    color: green;
-  }
-  
-  .darkchat-box .nightbot {
-    font-weight: bold;
-    color: #8A2BE2;
-  }
-  
-  .darkchat-box img {
-    height: 28px;
-    vertical-align: middle;
-  }
-  
-  .darkchat-box .mod {
-    height: 18px;
-    vertical-align: middle;
-  }
-  
-  .darkfooter .darkfooter-send {
-    content: "Send a message";
-    float: left;
-    margin-left: 10px;
-    margin-top: 2px;
-    color: 000000;
-  }
-  
-  .darkfooter .darkfooter-darkchat {
-    content: "Chat";
-    background: #8A2BE2;
-    color: white;
-    padding: 5px 10px;
-    float: right;
-    margin-left: 10px;
-    margin-top: 3px;
-    border-radius: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  .darkfooter .darkfooter-darkchat:hover {
-    background: #681bb0;
-  }
-  
-  .darkfooter .darkfooter-send,
-  .darkfooter .darkfooter-darkchat {
-    display: inline-block;
-  }
-  
-  .darkfooter {
-    background: #3d3d40;
-    font-size: 12px;
-    color: #bdbab9;
-    padding: 10px 1em 1em 1em;
-    margin: 5px;
-    text-align: center;
-    overflow: hidden;
-    display: block;
-    float: none;
-    border-bottom: 1px solid #0e0e10;
-    border-top: 1px solid #0e0e10;
-  }
-  
-  .darkchat-box::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  .darkchat-box::-webkit-scrollbar-track {
-    background: #0e0e10;
-  }
-  
-  .darkchat-box::-webkit-scrollbar-thumb {
-    background: #bdbab9;
-    border-radius: 4px;
-  }
-  
-  .darkchat-box::-webkit-scrollbar-thumb:hover {
-    background: #747474;
-  }
+#workskin .reply {
+  font-size: 90%;
+  opacity: 50%;
+}
 
-  .reply {
-    font-size: 90%;
-    opacity: 50%;
-  }
-  
-   .chat-message p {
-    margin: 0;
-  }
+#workskin .chat-message p {
+  margin: 0;
+}
+
+#workskin .darkcontainer {
+  max-width: 400px;
+  margin: auto;
+  background: #18181b;
+  padding: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  font-family: Helvetica,Arial,sans-serif;
+  border: 1px solid #0e0e10;
+  margin-bottom: 20px;
+}
+
+#workskin .darkcenter-image {
+  width: 100%;
+  height: auto;
+}
+
+#workskin .darkheader {
+  color: #bdbab9;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding: 2px 5px 2px 15px;
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+#workskin .darkchat-box {
+  margin: auto;
+  display: block;
+  float: none;
+  padding: 1em 1em 1em 1em;
+  font-size: small;
+  color: #bdbab9;
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#workskin .darkchat-box>p {
+  display: block;
+  padding: 4px 5px 4px 5px;
+  margin: unset;
+}
+
+#workskin .darkchat-box>p:hover {
+  background-color: #0e0e10;
+  border-radius: 5px;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+1) b {
+  color: #1E90FF;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+2) b {
+  color: #FF0001;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+3) b {
+  color: #FF7F50;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+4) b {
+  color: #9ACD32;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+5) b {
+  color: #8A2BE2;
+}
+
+#workskin .darkchat-box :nth-of-type(7n+6) b {
+  color: #FF69B4;
+}
+
+#workskin .darkchat-box :nth-of-type(7n) b {
+  color: #5F9EA0;
+}
+
+#workskin .darkchat-box b:hover,
+#workskin .darkchat-box .mod:hover,
+#workskin .darkchat-box .nightbot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#workskin .darkchat-box .mod {
+  font-weight: bold;
+  color: green;
+}
+
+#workskin .darkchat-box .nightbot {
+  font-weight: bold;
+  color: #8A2BE2;
+}
+
+#workskin .darkchat-box img {
+  height: 28px;
+  vertical-align: middle;
+}
+
+#workskin .darkchat-box .mod {
+  height: 18px;
+  vertical-align: middle;
+}
+
+#workskin .darkfooter .darkfooter-send {
+  content: "Send a message";
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+  color: 000000;
+}
+
+#workskin .darkfooter .darkfooter-darkchat {
+  content: "Chat";
+  background: #8A2BE2;
+  color: white;
+  padding: 5px 10px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#workskin .darkfooter .darkfooter-darkchat:hover {
+  background: #681bb0;
+}
+
+#workskin .darkfooter .darkfooter-send,
+#workskin .darkfooter .darkfooter-darkchat {
+  display: inline-block;
+}
+
+#workskin .darkfooter {
+  background: #3d3d40;
+  font-size: 12px;
+  color: #bdbab9;
+  padding: 10px 1em 1em 1em;
+  margin: 5px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  float: none;
+  border-bottom: 1px solid #0e0e10;
+  border-top: 1px solid #0e0e10;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar {
+  width: 4px;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-track {
+  background: #0e0e10;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-thumb {
+  background: #bdbab9;
+  border-radius: 4px;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-thumb:hover {
+  background: #747474;
+}
