@@ -454,6 +454,16 @@
     text-align: center;
   }
   
+  #workskin #chapter-2 .chapter.preface.group .title::after {
+    content: "Code and Explanations";
+    visibility: visible;
+    line-height: 1em;
+    display: block;
+    color: #681bb0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
   #workskin .example b:hover,
   #workskin .example .mod:hover,
   #workskin .example .nightbot:hover,
