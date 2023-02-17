@@ -1,4 +1,4 @@
-.container {
+#workskin .container {
     max-width: 400px;
     margin: auto;
     background: #FFFFFF;
@@ -9,12 +9,12 @@
     margin-bottom: 20px;
   }
   
-.center-image {
+  #workskin .center-image {
     width: 100%;
     height: auto;
   }
   
-.header {
+  #workskin .header {
     color: #000000;
     font-size: 12px;
     font-weight: bold;
@@ -25,7 +25,7 @@
     max-height: 50px;
   }
   
-.chat-box {
+  #workskin .chat-box {
     margin: auto;
     display: block;
     float: none;
@@ -37,74 +37,73 @@
     max-height: 300px;
   }
   
-.chat-box>p {
+  #workskin .chat-box>p {
     display: block;
     padding: 4px 5px 4px 5px;
     margin: unset;
   }
   
-.chat-box>p:hover {
+  #workskin .chat-box>p:hover {
     background-color: #F8F7FC;
     border-radius: 5px;
   }
   
-.chat-box :nth-of-type(7n+1) b {
+  #workskin .chat-box :nth-of-type(7n+1) b {
     color: #1E90FF;
   }
   
-.chat-box :nth-of-type(7n+2) b {
+  #workskin .chat-box :nth-of-type(7n+2) b {
     color: #FF0001;
   }
   
-.chat-box :nth-of-type(7n+3) b {
+  #workskin .chat-box :nth-of-type(7n+3) b {
     color: #FF7F50;
   }
   
-.chat-box :nth-of-type(7n+4) b {
+  #workskin .chat-box :nth-of-type(7n+4) b {
     color: #9ACD32;
   }
   
-.chat-box :nth-of-type(7n+5) b {
+  #workskin .chat-box :nth-of-type(7n+5) b {
     color: #8A2BE2;
   }
   
-.chat-box :nth-of-type(7n+6) b {
+  #workskin .chat-box :nth-of-type(7n+6) b {
     color: #FF69B4;
   }
   
-.chat-box :nth-of-type(7n) b {
+  #workskin .chat-box :nth-of-type(7n) b {
     color: #5F9EA0;
   }
   
-.chat-box b:hover,
-.chat-box .mod:hover,
-.chat-box .nightbot:hover {
-    border-radius: 5px;
+  #workskin .chat-box b:hover,
+  #workskin .chat-box .mod:hover,
+  #workskin .chat-box .nightbot:hover {
     cursor: pointer;
     text-decoration: underline;
   }
   
-.chat-box .mod {
+  #workskin .chat-box .mod {
     font-weight: bold;
     color: green;
   }
   
-.chat-box .nightbot {
+  #workskin .chat-box .nightbot {
     font-weight: bold;
     color: #8A2BE2;
   }
   
-.chat-box img {
+  #workskin .chat-box img {
     height: 28px;
     vertical-align: middle;
   }
   
-.chat-box .mod {
+  #workskin .chat-box .mod {
     height: 18px;
     vertical-align: middle;
   }
   
-.footer .footer-send {
+  #workskin .footer .footer-send {
     content: "Send a message";
     float: left;
     margin-left: 10px;
@@ -112,7 +111,7 @@
     color: 000000;
   }
   
-.footer .footer-chat {
+  #workskin .footer .footer-chat {
     content: "Chat";
     background: #8A2BE2;
     color: white;
@@ -126,16 +125,16 @@
     cursor: pointer;
   }
   
-.footer .footer-chat:hover {
+  #workskin .footer .footer-chat:hover {
     background: #681bb0;
   }
   
-.footer .footer-send,
-.footer .footer-chat {
+  #workskin .footer .footer-send,
+  #workskin .footer .footer-chat {
     display: inline-block;
   }
   
-.footer {
+  #workskin .footer {
     background: #ebebeb;
     font-size: 12px;
     padding: 5px 1em 1em 1em;
@@ -149,33 +148,33 @@
     border-top: 1px solid #DCDCE2;
   }
   
-.chat-box::-webkit-scrollbar {
+  #workskin .chat-box::-webkit-scrollbar {
     width: 4px;
   }
   
-.chat-box::-webkit-scrollbar-track {
+  #workskin .chat-box::-webkit-scrollbar-track {
     background: #FFFFFF;
   }
   
-.chat-box::-webkit-scrollbar-thumb {
+  #workskin .chat-box::-webkit-scrollbar-thumb {
     background: #DCDCE2;
     border-radius: 4px;
   }
   
-.chat-box::-webkit-scrollbar-thumb:hover {
+  #workskin .chat-box::-webkit-scrollbar-thumb:hover {
     background: #DCDCE2;
   }
   
-.reply {
+  #workskin .reply {
     font-size: 90%;
     opacity: 50%;
   }
   
-.chat-message p {
+  #workskin .chat-message p {
     margin: 0;
   }
   
-.darkcontainer {
+  #workskin .darkcontainer {
     max-width: 400px;
     margin: auto;
     background: #18181b;
@@ -186,12 +185,12 @@
     margin-bottom: 20px;
   }
   
-.darkcenter-image {
+  #workskin .darkcenter-image {
     width: 100%;
     height: auto;
   }
   
-.darkheader {
+  #workskin .darkheader {
     color: #bdbab9;
     font-size: 12px;
     font-weight: bold;
@@ -201,7 +200,7 @@
     font-family: Helvetica,Arial,sans-serif;
   }
   
-.darkchat-box {
+  #workskin .darkchat-box {
     margin: auto;
     display: block;
     float: none;
@@ -213,74 +212,73 @@
     max-height: 300px;
   }
   
-.darkchat-box>p {
+  #workskin .darkchat-box>p {
     display: block;
     padding: 4px 5px 4px 5px;
     margin: unset;
   }
   
-.darkchat-box>p:hover {
+  #workskin .darkchat-box>p:hover {
     background-color: #0e0e10;
     border-radius: 5px;
   }
   
-.darkchat-box :nth-of-type(7n+1) b {
+  #workskin .darkchat-box :nth-of-type(7n+1) b {
     color: #1E90FF;
   }
   
-.darkchat-box :nth-of-type(7n+2) b {
+  #workskin .darkchat-box :nth-of-type(7n+2) b {
     color: #FF0001;
   }
   
-.darkchat-box :nth-of-type(7n+3) b {
+  #workskin .darkchat-box :nth-of-type(7n+3) b {
     color: #FF7F50;
   }
   
-.darkchat-box :nth-of-type(7n+4) b {
+  #workskin .darkchat-box :nth-of-type(7n+4) b {
     color: #9ACD32;
   }
   
-.darkchat-box :nth-of-type(7n+5) b {
+  #workskin .darkchat-box :nth-of-type(7n+5) b {
     color: #8A2BE2;
   }
   
-.darkchat-box :nth-of-type(7n+6) b {
+  #workskin .darkchat-box :nth-of-type(7n+6) b {
     color: #FF69B4;
   }
   
-.darkchat-box :nth-of-type(7n) b {
+  #workskin .darkchat-box :nth-of-type(7n) b {
     color: #5F9EA0;
   }
   
-.darkchat-box b:hover,
-.darkchat-box .mod:hover,
-.darkchat-box .nightbot:hover {
-    border-radius: 5px;
+  #workskin .darkchat-box b:hover,
+  #workskin .darkchat-box .mod:hover,
+  #workskin .darkchat-box .nightbot:hover {
     cursor: pointer;
     text-decoration: underline;
   }
   
-.darkchat-box .mod {
+  #workskin .darkchat-box .mod {
     font-weight: bold;
     color: green;
   }
   
-.darkchat-box .nightbot {
+  #workskin .darkchat-box .nightbot {
     font-weight: bold;
     color: #8A2BE2;
   }
   
-.darkchat-box img {
+  #workskin .darkchat-box img {
     height: 28px;
     vertical-align: middle;
   }
   
-.darkchat-box .mod {
+  #workskin .darkchat-box .mod {
     height: 18px;
     vertical-align: middle;
   }
   
-.darkfooter .darkfooter-send {
+  #workskin .darkfooter .darkfooter-send {
     content: "Send a message";
     float: left;
     margin-left: 10px;
@@ -288,7 +286,7 @@
     color: 000000;
   }
   
-.darkfooter .darkfooter-darkchat {
+  #workskin .darkfooter .darkfooter-darkchat {
     content: "Chat";
     background: #8A2BE2;
     color: white;
@@ -301,16 +299,16 @@
     cursor: pointer;
   }
   
-.darkfooter .darkfooter-darkchat:hover {
+  #workskin .darkfooter .darkfooter-darkchat:hover {
     background: #681bb0;
   }
   
-.darkfooter .darkfooter-send,
-.darkfooter .darkfooter-darkchat {
+  #workskin .darkfooter .darkfooter-send,
+  #workskin .darkfooter .darkfooter-darkchat {
     display: inline-block;
   }
   
-.darkfooter {
+  #workskin .darkfooter {
     background: #3d3d40;
     font-size: 12px;
     color: #bdbab9;
@@ -324,66 +322,66 @@
     border-top: 1px solid #0e0e10;
   }
   
-.darkchat-box::-webkit-scrollbar {
+  #workskin .darkchat-box::-webkit-scrollbar {
     width: 4px;
   }
   
-.darkchat-box::-webkit-scrollbar-track {
+  #workskin .darkchat-box::-webkit-scrollbar-track {
     background: #0e0e10;
   }
   
-.darkchat-box::-webkit-scrollbar-thumb {
+  #workskin .darkchat-box::-webkit-scrollbar-thumb {
     background: #bdbab9;
     border-radius: 4px;
   }
   
-.darkchat-box::-webkit-scrollbar-thumb:hover {
+  #workskin .darkchat-box::-webkit-scrollbar-thumb:hover {
     background: #747474;
   }
   
-.tutorial {
+  #workskin .tutorial {
     max-width: 100%;
   }
   
-.explanation {
+  #workskin .explanation {
     color: #9146FF;
     font-size: 11px;
     font-family: monospace;
   }
   
-.code {
+  #workskin .code {
     font-family: monospace;
     font-size: 11px;
     display: block;
   }
   
-.code .explanation {
+  #workskin .code .explanation {
     color: #9146FF;
     display: inline;
   }
   
-.note {
+  #workskin .note {
     font-size: 12px;
     max-width: 40%;
   }
   
-.toc {
+  #workskin .toc {
     font-size: 20px;
     margin: auto;
     text-align: center;
   }
   
-.chapter {
+  #workskin .chapter {
     overflow-x: hidden !important;
   }
   
-.tooltip {
+  #workskin .tooltip {
     position: relative;
     display: inline-block;
     border: 1px solid #9146FF;
   }
   
-.tooltip .tooltiptext {
+  #workskin .tooltip .tooltiptext {
     visibility: hidden;
     width: max-content;
     max-width: 300px;
@@ -401,11 +399,11 @@
     border: 1px solid #9146FF;
   }
   
-.tooltip:hover .tooltiptext {
+  #workskin .tooltip:hover .tooltiptext {
     visibility: visible;
   }
   
-.tooltip .tooltiptext::after {
+  #workskin .tooltip .tooltiptext::after {
     content: " ";
     position: absolute;
     top: 100%;
@@ -416,100 +414,107 @@
     border-color: #f0f1f0 transparent transparent transparent;
   }
   
-.alert {
+  #workskin .alert {
     margin: auto;
     background: #8A2BE2;
-    max-width: 600px;
+    max-width: 400px;
     color: #fff;
     border: 1px solid #0e0e10;
-    border-radius: 8px;
-    padding: 5px;
-    font-family: Arial;
+    border-margin: 8px;
+    padding: 3px;
   }
   
-.alert a {
+  #workskin .alert a {
     color: #fff;
     text-decoration: underline;
   }
   
-.toc a {
+  #workskin .toc a {
     color: #8A2BE2;
     text-decoration: underline;
   }
   
-.toc a:hover {
+  #workskin .toc a:hover {
     color: #340c59;
     font-weight: bold;
   }
   
-.chapter.preface.group .title {
+  #workskin .chapter.preface.group .title {
     visibility: hidden;
     line-height: 0;
   }
   
-#chapter-1 .chapter.preface.group .title::after {
+  #workskin #chapter-1 .chapter.preface.group .title::after {
     content: "Examples and Notes";
     visibility: visible;
     line-height: 1em;
     display: block;
     color: #681bb0;
-    font-family: "Courier New", Courier, monospace;
     font-weight: bold;
     text-align: center;
   }
-
-.example b:hover,
-.example .mod:hover,
-.example .nightbot:hover,
-.example .random:hover {
+  
+  #workskin .example b:hover,
+  #workskin .example .mod:hover,
+  #workskin .example .nightbot:hover,
+  #workskin .example .random:hover {
     border-radius: 5px;
     cursor: pointer;
     text-decoration: underline;
   }
   
-.example .mod {
+  #workskin .example .mod {
     font-weight: bold;
     color: green;
   }
   
-.example .nightbot {
+  #workskin .example .nightbot {
     font-weight: bold;
     color: #8A2BE2;
   }
-
-.example .random {
+  
+  #workskin .example .random {
     font-weight: bold;
     color: #FF0001;
-}
-
-.example,
-.example .mod,
-.example .nightbot,
-.example .random {
+  }
+  
+  #workskin .example,
+  #workskin .example .mod,
+  #workskin .example .nightbot,
+  #workskin .example .random {
     font-family: Helvetica,Arial,sans-serif;
     font-size: small;
-}
-
-.coded,
-.htmlexample,
-.cssexample {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;;
+  }
+  
+  #workskin .coded,
+  #workskin .htmlexample,
+  #workskin .cssexample {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
     font-size: small;
-}
-
-.coded:hover {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;;
+  }
+  
+  #workskin .coded:hover {
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
     text-decoration: underline;
-}
-
-.cssexample:hover {
+  }
+  
+  #workskin .cssexample:hover {
     text-decoration: underline;
     text-decoration-color: #FF7F50;
     text-decoration-thickness: 2px;
-}
-
-.htmlexample:hover {
+  }
+  
+  #workskin .htmlexample:hover {
     text-decoration: underline;
     text-decoration-color: #FF69B4;
     text-decoration-thickness: 2px;
-}
+  }
+  
+  #workskin .serif {
+    font-family: serif;
+  }
+  
+  #workskin .tips a {
+    color: #8A2BE2;
+    text-decoration: underline;
+  }

@@ -79,7 +79,6 @@
  .chat-box b:hover,
  .chat-box .mod:hover,
  .chat-box .nightbot:hover {
-  border-radius: 5px;
   cursor: pointer;
   text-decoration: underline;
 }

@@ -78,7 +78,6 @@
   .darkchat-box b:hover,
   .darkchat-box .mod:hover,
   .darkchat-box .nightbot:hover {
-    border-radius: 5px;
     cursor: pointer;
     text-decoration: underline;
   }
