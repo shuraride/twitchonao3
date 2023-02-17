@@ -13,7 +13,7 @@
   background: #18181b;
   padding: 0;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   border: 1px solid #0e0e10;
   margin-bottom: 20px;
 }
@@ -30,7 +30,7 @@
   text-align: center;
   position: relative;
   padding: 2px 5px 2px 15px;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #workskin .darkchat-box {
@@ -45,43 +45,43 @@
   max-height: 300px;
 }
 
-#workskin .darkchat-box>p {
+#workskin .darkchat-box > p {
   display: block;
   padding: 4px 5px 4px 5px;
   margin: unset;
 }
 
-#workskin .darkchat-box>p:hover {
+#workskin .darkchat-box > p:hover {
   background-color: #0e0e10;
   border-radius: 5px;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+1) b {
-  color: #1E90FF;
+#workskin .darkchat-box :nth-of-type(7n + 1) b {
+  color: #1e90ff;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+2) b {
-  color: #FF0001;
+#workskin .darkchat-box :nth-of-type(7n + 2) b {
+  color: #ff0001;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+3) b {
-  color: #FF7F50;
+#workskin .darkchat-box :nth-of-type(7n + 3) b {
+  color: #ff7f50;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+4) b {
-  color: #9ACD32;
+#workskin .darkchat-box :nth-of-type(7n + 4) b {
+  color: #9acd32;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+5) b {
-  color: #8A2BE2;
+#workskin .darkchat-box :nth-of-type(7n + 5) b {
+  color: #8a2be2;
 }
 
-#workskin .darkchat-box :nth-of-type(7n+6) b {
-  color: #FF69B4;
+#workskin .darkchat-box :nth-of-type(7n + 6) b {
+  color: #ff69b4;
 }
 
 #workskin .darkchat-box :nth-of-type(7n) b {
-  color: #5F9EA0;
+  color: #5f9ea0;
 }
 
 #workskin .darkchat-box b:hover,
@@ -98,7 +98,7 @@
 
 #workskin .darkchat-box .nightbot {
   font-weight: bold;
-  color: #8A2BE2;
+  color: #8a2be2;
 }
 
 #workskin .darkchat-box img {
@@ -121,7 +121,7 @@
 
 #workskin .darkfooter .darkfooter-darkchat {
   content: "Chat";
-  background: #8A2BE2;
+  background: #8a2be2;
   color: white;
   padding: 5px 10px;
   float: right;

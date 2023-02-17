@@ -1,530 +1,532 @@
 #workskin .container {
-    max-width: 400px;
-    margin: auto;
-    background: #FFFFFF;
-    padding: 0;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-    font-family: Helvetica,Arial,sans-serif;
-    border: 1px solid #DCDCE2;
-    margin-bottom: 20px;
-  }
-  
-  #workskin .center-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  #workskin .header {
-    color: #000000;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    padding: 2px 5px 2px 15px;
-    font-family: Helvetica,Arial,sans-serif;
-    max-height: 50px;
-  }
-  
-  #workskin .chat-box {
-    margin: auto;
-    display: block;
-    float: none;
-    padding: 1em 1em 1em 1em;
-    font-size: small;
-    color: #000000;
-    overflow: auto;
-    overflow-y: scroll;
-    max-height: 300px;
-  }
-  
-  #workskin .chat-box>p {
-    display: block;
-    padding: 4px 5px 4px 5px;
-    margin: unset;
-  }
-  
-  #workskin .chat-box>p:hover {
-    background-color: #F8F7FC;
-    border-radius: 5px;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+1) b {
-    color: #1E90FF;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+2) b {
-    color: #FF0001;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+3) b {
-    color: #FF7F50;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+4) b {
-    color: #9ACD32;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+5) b {
-    color: #8A2BE2;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n+6) b {
-    color: #FF69B4;
-  }
-  
-  #workskin .chat-box :nth-of-type(7n) b {
-    color: #5F9EA0;
-  }
-  
-  #workskin .chat-box b:hover,
-  #workskin .chat-box .mod:hover,
-  #workskin .chat-box .nightbot:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  
-  #workskin .chat-box .mod {
-    font-weight: bold;
-    color: green;
-  }
-  
-  #workskin .chat-box .nightbot {
-    font-weight: bold;
-    color: #8A2BE2;
-  }
-  
-  #workskin .chat-box img {
-    height: 28px;
-    vertical-align: middle;
-  }
-  
-  #workskin .chat-box .mod {
-    height: 18px;
-    vertical-align: middle;
-  }
-  
-  #workskin .footer .footer-send {
-    content: "Send a message";
-    float: left;
-    margin-left: 10px;
-    margin-top: 2px;
-    color: 000000;
-  }
-  
-  #workskin .footer .footer-chat {
-    content: "Chat";
-    background: #8A2BE2;
-    color: white;
-    padding: 5px 10px;
-    float: right;
-    margin-left: 10px;
-    margin-top: 3px;
-    border-radius: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #workskin .footer .footer-chat:hover {
-    background: #681bb0;
-  }
-  
-  #workskin .footer .footer-send,
-  #workskin .footer .footer-chat {
-    display: inline-block;
-  }
-  
-  #workskin .footer {
-    background: #ebebeb;
-    font-size: 12px;
-    padding: 5px 1em 1em 1em;
-    margin: 5px;
-    color: #565656;
-    text-align: center;
-    overflow: hidden;
-    display: block;
-    float: none;
-    border-bottom: 1px solid #DCDCE2;
-    border-top: 1px solid #DCDCE2;
-  }
-  
-  #workskin .chat-box::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  #workskin .chat-box::-webkit-scrollbar-track {
-    background: #FFFFFF;
-  }
-  
-  #workskin .chat-box::-webkit-scrollbar-thumb {
-    background: #DCDCE2;
-    border-radius: 4px;
-  }
-  
-  #workskin .chat-box::-webkit-scrollbar-thumb:hover {
-    background: #DCDCE2;
-  }
-  
-  #workskin .reply {
-    font-size: 90%;
-    opacity: 50%;
-  }
-  
-  #workskin .chat-message p {
-    margin: 0;
-  }
-  
-  #workskin .darkcontainer {
-    max-width: 400px;
-    margin: auto;
-    background: #18181b;
-    padding: 0;
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
-    font-family: Helvetica,Arial,sans-serif;
-    border: 1px solid #0e0e10;
-    margin-bottom: 20px;
-  }
-  
-  #workskin .darkcenter-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  #workskin .darkheader {
-    color: #bdbab9;
-    font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    position: relative;
-    padding: 2px 5px 2px 15px;
-    font-family: Helvetica,Arial,sans-serif;
-  }
-  
-  #workskin .darkchat-box {
-    margin: auto;
-    display: block;
-    float: none;
-    padding: 1em 1em 1em 1em;
-    font-size: small;
-    color: #bdbab9;
-    overflow: auto;
-    overflow-y: scroll;
-    max-height: 300px;
-  }
-  
-  #workskin .darkchat-box>p {
-    display: block;
-    padding: 4px 5px 4px 5px;
-    margin: unset;
-  }
-  
-  #workskin .darkchat-box>p:hover {
-    background-color: #0e0e10;
-    border-radius: 5px;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+1) b {
-    color: #1E90FF;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+2) b {
-    color: #FF0001;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+3) b {
-    color: #FF7F50;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+4) b {
-    color: #9ACD32;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+5) b {
-    color: #8A2BE2;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n+6) b {
-    color: #FF69B4;
-  }
-  
-  #workskin .darkchat-box :nth-of-type(7n) b {
-    color: #5F9EA0;
-  }
-  
-  #workskin .darkchat-box b:hover,
-  #workskin .darkchat-box .mod:hover,
-  #workskin .darkchat-box .nightbot:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  
-  #workskin .darkchat-box .mod {
-    font-weight: bold;
-    color: green;
-  }
-  
-  #workskin .darkchat-box .nightbot {
-    font-weight: bold;
-    color: #8A2BE2;
-  }
-  
-  #workskin .darkchat-box img {
-    height: 28px;
-    vertical-align: middle;
-  }
-  
-  #workskin .darkchat-box .mod {
-    height: 18px;
-    vertical-align: middle;
-  }
-  
-  #workskin .darkfooter .darkfooter-send {
-    content: "Send a message";
-    float: left;
-    margin-left: 10px;
-    margin-top: 2px;
-    color: 000000;
-  }
-  
-  #workskin .darkfooter .darkfooter-darkchat {
-    content: "Chat";
-    background: #8A2BE2;
-    color: white;
-    padding: 5px 10px;
-    float: right;
-    margin-left: 10px;
-    border-radius: 8px;
-    font-size: 12px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  
-  #workskin .darkfooter .darkfooter-darkchat:hover {
-    background: #681bb0;
-  }
-  
-  #workskin .darkfooter .darkfooter-send,
-  #workskin .darkfooter .darkfooter-darkchat {
-    display: inline-block;
-  }
-  
-  #workskin .darkfooter {
-    background: #3d3d40;
-    font-size: 12px;
-    color: #bdbab9;
-    padding: 10px 1em 1em 1em;
-    margin: 5px;
-    text-align: center;
-    overflow: hidden;
-    display: block;
-    float: none;
-    border-bottom: 1px solid #0e0e10;
-    border-top: 1px solid #0e0e10;
-  }
-  
-  #workskin .darkchat-box::-webkit-scrollbar {
-    width: 4px;
-  }
-  
-  #workskin .darkchat-box::-webkit-scrollbar-track {
-    background: #0e0e10;
-  }
-  
-  #workskin .darkchat-box::-webkit-scrollbar-thumb {
-    background: #bdbab9;
-    border-radius: 4px;
-  }
-  
-  #workskin .darkchat-box::-webkit-scrollbar-thumb:hover {
-    background: #747474;
-  }
-  
-  #workskin .tutorial {
-    max-width: 100%;
-  }
-  
-  #workskin .explanation {
-    color: #9146FF;
-    font-size: 11px;
-    font-family: monospace;
-  }
-  
-  #workskin .code {
-    font-family: monospace;
-    font-size: 11px;
-    display: block;
-  }
-  
-  #workskin .code .explanation {
-    color: #9146FF;
-    display: inline;
-  }
-  
-  #workskin .note {
-    font-size: 12px;
-    max-width: 40%;
-  }
-  
-  #workskin .toc {
-    font-size: 20px;
-    margin: auto;
-    text-align: center;
-  }
-  
-  #workskin .chapter {
-    overflow-x: hidden !important;
-  }
-  
-  #workskin .tooltip {
-    position: relative;
-    display: inline-block;
-    border: 1px solid #9146FF;
-  }
-  
-  #workskin .tooltip .tooltiptext {
-    visibility: hidden;
-    width: max-content;
-    max-width: 300px;
-    margin-left: -50%;
-    background-color: #ffffff;
-    color: #000;
-    text-align: center;
-    padding: 5px 10px;
-    border-radius: 5px;
-    position: absolute;
-    z-index: 99999;
-    bottom: 100%;
-    left: 50%;
-    overflow-wrap: break-word;
-    border: 1px solid #9146FF;
-  }
-  
-  #workskin .tooltip:hover .tooltiptext {
-    visibility: visible;
-  }
-  
-  #workskin .tooltip .tooltiptext::after {
-    content: " ";
-    position: absolute;
-    top: 100%;
-    left: 20%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #f0f1f0 transparent transparent transparent;
-  }
-  
-  #workskin .alert {
-    margin: auto;
-    background: #8A2BE2;
-    max-width: 400px;
-    color: #fff;
-    border: 1px solid #0e0e10;
-    border-margin: 8px;
-    padding: 3px;
-  }
-  
-  #workskin .alert a {
-    color: #fff;
-    text-decoration: underline;
-  }
-  
-  #workskin .toc a {
-    color: #8A2BE2;
-    text-decoration: underline;
-  }
-  
-  #workskin .toc a:hover {
-    color: #340c59;
-    font-weight: bold;
-  }
-  
-  #workskin .chapter.preface.group .title {
-    visibility: hidden;
-    line-height: 0;
-  }
-  
-  #workskin #chapter-1 .chapter.preface.group .title::after {
-    content: "Examples and Notes";
-    visibility: visible;
-    line-height: 1em;
-    display: block;
-    color: #681bb0;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #workskin #chapter-2 .chapter.preface.group .title::after {
-    content: "Code and Explanations";
-    visibility: visible;
-    line-height: 1em;
-    display: block;
-    color: #681bb0;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  #workskin .example b:hover,
-  #workskin .example .mod:hover,
-  #workskin .example .nightbot:hover,
-  #workskin .example .random:hover {
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: underline;
-  }
-  
-  #workskin .example .mod {
-    font-weight: bold;
-    color: green;
-  }
-  
-  #workskin .example .nightbot {
-    font-weight: bold;
-    color: #8A2BE2;
-  }
-  
-  #workskin .example .random {
-    font-weight: bold;
-    color: #FF0001;
-  }
-  
-  #workskin .example,
-  #workskin .example .mod,
-  #workskin .example .nightbot,
-  #workskin .example .random {
-    font-family: Helvetica,Arial,sans-serif;
-    font-size: small;
-  }
-  
-  #workskin .coded,
-  #workskin .htmlexample,
-  #workskin .cssexample {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
-    font-size: small;
-  }
-  
-  #workskin .coded:hover {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
-    text-decoration: underline;
-  }
-  
-  #workskin .cssexample:hover {
-    text-decoration: underline;
-    text-decoration-color: #FF7F50;
-    text-decoration-thickness: 2px;
-  }
-  
-  #workskin .htmlexample:hover {
-    text-decoration: underline;
-    text-decoration-color: #FF69B4;
-    text-decoration-thickness: 2px;
-  }
-  
-  #workskin .serif {
-    font-family: serif;
-  }
-  
-  #workskin .tips a {
-    color: #8A2BE2;
-    text-decoration: underline;
-  }
+  max-width: 400px;
+  margin: auto;
+  background: #ffffff;
+  padding: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #dcdce2;
+  margin-bottom: 20px;
+}
+
+#workskin .center-image {
+  width: 100%;
+  height: auto;
+}
+
+#workskin .header {
+  color: #000000;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding: 2px 5px 2px 15px;
+  font-family: Helvetica, Arial, sans-serif;
+  max-height: 50px;
+}
+
+#workskin .chat-box {
+  margin: auto;
+  display: block;
+  float: none;
+  padding: 1em 1em 1em 1em;
+  font-size: small;
+  color: #000000;
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#workskin .chat-box > p {
+  display: block;
+  padding: 4px 5px 4px 5px;
+  margin: unset;
+}
+
+#workskin .chat-box > p:hover {
+  background-color: #f8f7fc;
+  border-radius: 5px;
+}
+
+#workskin .chat-box :nth-of-type(7n + 1) b {
+  color: #1e90ff;
+}
+
+#workskin .chat-box :nth-of-type(7n + 2) b {
+  color: #ff0001;
+}
+
+#workskin .chat-box :nth-of-type(7n + 3) b {
+  color: #ff7f50;
+}
+
+#workskin .chat-box :nth-of-type(7n + 4) b {
+  color: #9acd32;
+}
+
+#workskin .chat-box :nth-of-type(7n + 5) b {
+  color: #8a2be2;
+}
+
+#workskin .chat-box :nth-of-type(7n + 6) b {
+  color: #ff69b4;
+}
+
+#workskin .chat-box :nth-of-type(7n) b {
+  color: #5f9ea0;
+}
+
+#workskin .chat-box b:hover,
+#workskin .chat-box .mod:hover,
+#workskin .chat-box .nightbot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#workskin .chat-box .mod {
+  font-weight: bold;
+  color: green;
+}
+
+#workskin .chat-box .nightbot {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+#workskin .chat-box img {
+  height: 28px;
+  vertical-align: middle;
+}
+
+#workskin .chat-box .mod {
+  height: 18px;
+  vertical-align: middle;
+}
+
+#workskin .footer .footer-send {
+  content: "Send a message";
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+  color: 000000;
+}
+
+#workskin .footer .footer-chat {
+  content: "Chat";
+  background: #8a2be2;
+  color: white;
+  padding: 5px 10px;
+  float: right;
+  margin-left: 10px;
+  margin-top: 3px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#workskin .footer .footer-chat:hover {
+  background: #681bb0;
+}
+
+#workskin .footer .footer-send,
+#workskin .footer .footer-chat {
+  display: inline-block;
+}
+
+#workskin .footer {
+  background: #ebebeb;
+  font-size: 12px;
+  padding: 5px 1em 1em 1em;
+  margin: 5px;
+  color: #565656;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  float: none;
+  border-bottom: 1px solid #dcdce2;
+  border-top: 1px solid #dcdce2;
+}
+
+#workskin .chat-box::-webkit-scrollbar {
+  width: 4px;
+}
+
+#workskin .chat-box::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+#workskin .chat-box::-webkit-scrollbar-thumb {
+  background: #dcdce2;
+  border-radius: 4px;
+}
+
+#workskin .chat-box::-webkit-scrollbar-thumb:hover {
+  background: #dcdce2;
+}
+
+#workskin .reply {
+  font-size: 90%;
+  opacity: 50%;
+}
+
+#workskin .chat-message p {
+  margin: 0;
+}
+
+#workskin .darkcontainer {
+  max-width: 400px;
+  margin: auto;
+  background: #18181b;
+  padding: 0;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  font-family: Helvetica, Arial, sans-serif;
+  border: 1px solid #0e0e10;
+  margin-bottom: 20px;
+}
+
+#workskin .darkcenter-image {
+  width: 100%;
+  height: auto;
+}
+
+#workskin .darkheader {
+  color: #bdbab9;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  padding: 2px 5px 2px 15px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#workskin .darkchat-box {
+  margin: auto;
+  display: block;
+  float: none;
+  padding: 1em 1em 1em 1em;
+  font-size: small;
+  color: #bdbab9;
+  overflow: auto;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+#workskin .darkchat-box > p {
+  display: block;
+  padding: 4px 5px 4px 5px;
+  margin: unset;
+}
+
+#workskin .darkchat-box > p:hover {
+  background-color: #0e0e10;
+  border-radius: 5px;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 1) b {
+  color: #1e90ff;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 2) b {
+  color: #ff0001;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 3) b {
+  color: #ff7f50;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 4) b {
+  color: #9acd32;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 5) b {
+  color: #8a2be2;
+}
+
+#workskin .darkchat-box :nth-of-type(7n + 6) b {
+  color: #ff69b4;
+}
+
+#workskin .darkchat-box :nth-of-type(7n) b {
+  color: #5f9ea0;
+}
+
+#workskin .darkchat-box b:hover,
+#workskin .darkchat-box .mod:hover,
+#workskin .darkchat-box .nightbot:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#workskin .darkchat-box .mod {
+  font-weight: bold;
+  color: green;
+}
+
+#workskin .darkchat-box .nightbot {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+#workskin .darkchat-box img {
+  height: 28px;
+  vertical-align: middle;
+}
+
+#workskin .darkchat-box .mod {
+  height: 18px;
+  vertical-align: middle;
+}
+
+#workskin .darkfooter .darkfooter-send {
+  content: "Send a message";
+  float: left;
+  margin-left: 10px;
+  margin-top: 2px;
+  color: 000000;
+}
+
+#workskin .darkfooter .darkfooter-darkchat {
+  content: "Chat";
+  background: #8a2be2;
+  color: white;
+  padding: 5px 10px;
+  float: right;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#workskin .darkfooter .darkfooter-darkchat:hover {
+  background: #681bb0;
+}
+
+#workskin .darkfooter .darkfooter-send,
+#workskin .darkfooter .darkfooter-darkchat {
+  display: inline-block;
+}
+
+#workskin .darkfooter {
+  background: #3d3d40;
+  font-size: 12px;
+  color: #bdbab9;
+  padding: 10px 1em 1em 1em;
+  margin: 5px;
+  text-align: center;
+  overflow: hidden;
+  display: block;
+  float: none;
+  border-bottom: 1px solid #0e0e10;
+  border-top: 1px solid #0e0e10;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar {
+  width: 4px;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-track {
+  background: #0e0e10;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-thumb {
+  background: #bdbab9;
+  border-radius: 4px;
+}
+
+#workskin .darkchat-box::-webkit-scrollbar-thumb:hover {
+  background: #747474;
+}
+
+#workskin .tutorial {
+  max-width: 100%;
+}
+
+#workskin .explanation {
+  color: #9146ff;
+  font-size: 11px;
+  font-family: monospace;
+}
+
+#workskin .code {
+  font-family: monospace;
+  font-size: 11px;
+  display: block;
+}
+
+#workskin .code .explanation {
+  color: #9146ff;
+  display: inline;
+}
+
+#workskin .note {
+  font-size: 12px;
+  max-width: 40%;
+}
+
+#workskin .toc {
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+#workskin .chapter {
+  overflow-x: hidden !important;
+}
+
+#workskin .tooltip {
+  position: relative;
+  display: inline-block;
+  border: 1px solid #9146ff;
+}
+
+#workskin .tooltip .tooltiptext {
+  visibility: hidden;
+  width: max-content;
+  max-width: 300px;
+  margin-left: -50%;
+  background-color: #ffffff;
+  color: #000;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: absolute;
+  z-index: 99999;
+  bottom: 100%;
+  left: 50%;
+  overflow-wrap: break-word;
+  border: 1px solid #9146ff;
+}
+
+#workskin .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+#workskin .tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #f0f1f0 transparent transparent transparent;
+}
+
+#workskin .alert {
+  margin: auto;
+  background: #8a2be2;
+  max-width: 400px;
+  color: #fff;
+  border: 1px solid #0e0e10;
+  border-margin: 8px;
+  padding: 3px;
+}
+
+#workskin .alert a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#workskin .toc a {
+  color: #8a2be2;
+  text-decoration: underline;
+}
+
+#workskin .toc a:hover {
+  color: #340c59;
+  font-weight: bold;
+}
+
+#workskin .chapter.preface.group .title {
+  visibility: hidden;
+  line-height: 0;
+}
+
+#workskin #chapter-1 .chapter.preface.group .title::after {
+  content: "Examples and Notes";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+  color: #681bb0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#workskin #chapter-2 .chapter.preface.group .title::after {
+  content: "Code and Explanations";
+  visibility: visible;
+  line-height: 1em;
+  display: block;
+  color: #681bb0;
+  font-weight: bold;
+  text-align: center;
+}
+
+#workskin .example b:hover,
+#workskin .example .mod:hover,
+#workskin .example .nightbot:hover,
+#workskin .example .random:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#workskin .example .mod {
+  font-weight: bold;
+  color: green;
+}
+
+#workskin .example .nightbot {
+  font-weight: bold;
+  color: #8a2be2;
+}
+
+#workskin .example .random {
+  font-weight: bold;
+  color: #ff0001;
+}
+
+#workskin .example,
+#workskin .example .mod,
+#workskin .example .nightbot,
+#workskin .example .random {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: small;
+}
+
+#workskin .coded,
+#workskin .htmlexample,
+#workskin .cssexample {
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+  font-size: small;
+}
+
+#workskin .coded:hover {
+  font-family: Consolas, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New;
+  text-decoration: underline;
+}
+
+#workskin .cssexample:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff7f50;
+  text-decoration-thickness: 2px;
+}
+
+#workskin .htmlexample:hover {
+  text-decoration: underline;
+  text-decoration-color: #ff69b4;
+  text-decoration-thickness: 2px;
+}
+
+#workskin .serif {
+  font-family: serif;
+}
+
+#workskin .tips a {
+  color: #8a2be2;
+  text-decoration: underline;
+}
