@@ -1,6 +1,6 @@
 ## Twitch Chat on AO3 (Kinda)
 
-Not 100% accurate. More mimicking the feel than anything. Kinda old looking, but that's just Twitch's chat box style. Rounded corners would make it look more 'modern'.
+Not 100% accurate. More mimicking the feel than anything. Pretty old looking, but that's just Twitch's chat box style. 😮‍💨 Rounded corners with drop shadows would make it look more 'modern'.
 
 Detailed info on how to make changes to this code on the [AO3 version](https://archiveofourown.org/works/45107263/chapters/113472118#workskin).
 
