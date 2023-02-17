@@ -13,7 +13,7 @@ Original idea for the Twitch chat on AO3 goes to [Ultraviollett](https://archive
 
 Feel free to ask me if you can't get something working or have any suggestions! I wrote this all in a day; it's very messy and can definitely be improved.
 
-P.S. Please don't actually use any of the bear emotes in the HTML. They are not for free use, they're only for example purposes. :( But [here](https://old.reddit.com/r/Twitch/comments/kqdrwo/free_emotes/) are some places you can find free or cheap emotes to use! (It's bad practice to use other people's Twitch emotes. Please don't do it.)
+P.S. Please don't actually use any of the bear emotes in the HTML. They are not for free use, they're only for example purposes. 🥲 But [here](https://old.reddit.com/r/Twitch/comments/kqdrwo/free_emotes/) are some places you can find free or cheap emotes to use! (It's bad practice to use other people's custom Twitch emotes, unless they're explicitly free. Please don't do it.)
 
 ## Examples
 
