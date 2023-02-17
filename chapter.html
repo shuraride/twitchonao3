@@ -281,3 +281,347 @@
                   <li>Add pinned message</li>
                   <li>Make Old Twitch chat ver</li>
                 <li>Add bits</li></ul></li></ul>
+
+                <!-- Chapter 2-->
+
+                <p class="alert">If you only want the code, click <a href="https://github.com/ninetqs/twitchonao3/tree/main/lightmode" rel="nofollow">HERE</a> for light mode and <a href="https://github.com/ninetqs/twitchonao3/tree/main/darkmode" rel="nofollow">HERE</a> for dark mode.</p>
+
+<p>.</p>
+
+<p>This page will explain certain elements of the CSS and how you can change them. It utilizes tooltips - hover over <span class="tooltip">a purple-outlined block<span class="tooltiptext">like this!</span></span> to see the explanations. (Click out of the tooltip to close it.) I'll only be reviewing the original/light mode version of the chat, but everything applies to dark mode as well. Some stuff, like changing colours, should be pretty self-explanatory, but if you need help just ask.</p><hr /><h3>CSS</h3>
+
+<p>
+  <code>.container {<br />
+<span class="tooltip">max-width: 400px;<span class="tooltiptext">Make the box bigger or smaller</span></span><br />
+margin: auto;<br />
+background: #FFFFFF;<br />
+padding: 0;<br />
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);<br />
+font-family: Helvetica,Arial,sans-serif;<br />
+border: 1px solid #DCDCE2;<br />
+margin-bottom: 20px;<br />
+}</code>
+</p>
+
+<p>
+  <code><span class="tooltip">.center-image {<span class="tooltiptext">Not used in code, but you can add it under the header if you want to place an image. Will use in a future version</span></span><br />
+width: 100%;<br />
+height: auto;<br />
+}</code>
+</p>
+
+<p>
+  <code><span class="tooltip">.header {<span class="tooltiptext">Delete the header divs along with everything in between if you don't want the header (same principle applies to the footer)<br />
+color: #000000;<br />
+font-size: 12px;<br />
+font-weight: bold;<br />
+text-align: center;<br />
+position: relative;<br />
+padding: 2px 5px 2px 15px;<br />
+font-family: Helvetica,Arial,sans-serif;<br />
+max-height: 50px;<br />
+}</span></span></code>
+
+</p>
+
+<p>
+  <code>.chat-box {<br />
+margin: auto;<br />
+display: block;<br />
+float: none;<br />
+padding: 1em 1em 1em 1em;<br />
+font-size: small;<br />
+color: #000000;<br />
+<span class="tooltip">overflow: auto;<br />
+overflow-y: scroll;<br />
+max-height: 300px;<span class="tooltiptext">Delete this if you don't want the chat box to scroll - it will continue indefinitely instead</span></span><br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box&gt;p {<br />
+display: block;<br />
+padding: 4px 5px 4px 5px;<br />
+margin: unset;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box&gt;p:hover {<br />
+background-color: #F8F7FC;<br />
+border-radius: 5px;<br />
+}</code>
+</p>
+
+<p>
+  <code><span class="tooltip">.chat-box :nth-of-type(7n+1) b {<span class="tooltiptext">This and all the similar ones below are what randomize the username colours (in order)</span></span><br />
+color: #1E90FF;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n+2) b {<br />
+color: #FF0001;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n+3) b {<br />
+color: #FF7F50;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n+4) b {<br />
+color: #9ACD32;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n+5) b {<br />
+color: #8A2BE2;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n+6) b {<br />
+color: #FF69B4;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box :nth-of-type(7n) b {<br />
+color: #5F9EA0;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box b:hover,<br />
+.chat-box .mod:hover,<br />
+.chat-box .nightbot:hover {<br />
+cursor: pointer;<br />
+text-decoration: underline;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box .mod {<br />
+font-weight: bold;<br />
+color: green;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box .nightbot {<br />
+font-weight: bold;<br />
+color: #8A2BE2;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box img {<br />
+height: 28px;<br />
+vertical-align: middle;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box .mod {<br />
+height: 18px;<br />
+vertical-align: middle;<br />
+}</code>
+</p>
+
+<p>
+  <code>.footer .footer-send {<br />
+content: "Send a message";<br />
+float: left;<br />
+margin-left: 10px;<br />
+margin-top: 2px;<br />
+color: 000000;<br />
+}</code>
+</p>
+
+<p>
+  <code>.footer .footer-chat {<br />
+content: "Chat";<br />
+background: #8A2BE2;<br />
+color: white;<br />
+padding: 5px 10px;<br />
+float: right;<br />
+margin-left: 10px;<br />
+margin-top: 3px;<br />
+border-radius: 8px;<br />
+font-size: 12px;<br />
+font-weight: bold;<br />
+cursor: pointer;<br />
+}</code>
+</p>
+
+<p>
+  <code>.footer .footer-chat:hover {<br />
+background: #681bb0;<br />
+}</code>
+</p>
+
+<p>
+  <code>.footer .footer-send,<br />
+.footer .footer-chat {<br />
+display: inline-block;<br />
+}</code>
+</p>
+
+<p>
+  <code>.footer {<br />
+background: #ebebeb;<br />
+max-height: 50px;<br />
+font-size: 12px;<br />
+padding: 10px 1em 1em 1em;<br />
+margin: 5px;<br />
+color: #565656;<br />
+text-align: center;<br />
+overflow: hidden;<br />
+display: block;<br />
+float: none;<br />
+border-bottom: 1px solid #DCDCE2;<br />
+border-top: 1px solid #DCDCE2;<br />
+}</code>
+</p>
+
+<p>
+  <code><span class="tooltip">.chat-box::-webkit-scrollbar {<span class="tooltiptext">You can delete these and the 3 below if you deleted the scrollbar above</span></span><br />
+width: 4px;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box::-webkit-scrollbar-track {<br />
+background: #FFFFFF;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box::-webkit-scrollbar-thumb {<br />
+background: #DCDCE2;<br />
+border-radius: 4px;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-box::-webkit-scrollbar-thumb:hover {<br />
+background: #DCDCE2;<br />
+}</code>
+</p>
+
+<p>
+  <code>.reply {<br />
+font-size: 90%;<br />
+opacity: 50%;<br />
+}</code>
+</p>
+
+<p>
+  <code>.chat-message p {<br />
+margin: 0;<br />
+}</code>
+</p><h3>HTML</h3>
+
+<p>
+  <code>&lt;div class="container"&gt;<br />
+&lt;div class="header"&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;STREAM CHAT&lt;/p&gt;&lt;/div&gt;<br />
+&lt;div class="chat-box"&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;wolfgirl2911:&lt;/b&gt; VIKEN STREAMMMM &lt;img src="https://i.imgur.com/7kYD2Im.png" alt="bear with popcorn" /&gt;&lt;img src="https://i.imgur.com/7kYD2Im.png" alt="bear with popcorn" /&gt;&lt;img src="https://i.imgur.com/7kYD2Im.png" alt="bear with popcorn" /&gt;<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;Viviviviviii:&lt;/b&gt; how did u know i was having a bad day :((( my baby tysm for coming &lt;3333<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;span class="mod"&gt;&lt;img src="https://i.imgur.com/cIdv7TP.png" alt="mod badge" class="mod" /&gt;&lt;img src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/1" class="mod" /&gt;&lt;img src="https://i.imgur.com/6okd9mP.png" class="mod" /&gt; txtSoule:&lt;/span&gt; Ewww<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;&lt;img src="https://static-cdn.jtvnw.net/badges/v1/b817aba4-fad8-49e2-b88a-7cc744dfa6ec/1" class="mod" /&gt;&lt;img src="https://i.imgur.com/eR9KTqc.png" class="mod" /&gt; MissDivert:&lt;/b&gt; Omg I missed the last stream I'm so glad I got the notif this time ajsfjasf<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;soulejaboy:&lt;/b&gt; hello buppy<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;span class="reply"&gt;| In reply to @MissDivert: Omg I missed th...&lt;/span&gt;&lt;br /&gt;<br />
+&lt;b&gt;KuroNekochan23:&lt;/b&gt; SAMEEE<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;&lt;img src="https://i.imgur.com/eR9KTqc.png" class="mod" /&gt; TXTssticker:&lt;/b&gt; VIKENNNNNNNNNN I MISSED U SOO MUCHHDSFJIRSFASDF &lt;img src="https://i.imgur.com/aVfGA05.png" /&gt;<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;Rudedda:&lt;/b&gt; souleij3244dsaf<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;&lt;img src="https://i.imgur.com/eR9KTqc.png" class="mod" /&gt; &lt;img src="https://static-cdn.jtvnw.net/badges/v1/1d4b03b9-51ea-42c9-8f29-698e3c85be3d/1" class="mod" /&gt; ollieolliepew:&lt;/b&gt; SOULE!!!!!!<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;Franklies:&lt;/b&gt; soule came just to be tsundere in the chat what a lewser &lt;img src="https://i.imgur.com/teT6pxz.png" /&gt;<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;&lt;img src="https://i.imgur.com/6okd9mP.png" class="mod" /&gt; ninetqs:&lt;/b&gt; Viken, I've been having such a bad day, can you give me a shout out plz my name is Minah :( it would mean the world to me &lt;3<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;span class="mod"&gt;&lt;img src="https://i.imgur.com/cIdv7TP.png" alt="mod badge" class="mod" /&gt;&lt;img src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/1" class="mod" /&gt;&lt;img src="https://i.imgur.com/6okd9mP.png" class="mod" /&gt; txtEugene:&lt;/span&gt; karaoke stream ????<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;AuraFavourite:&lt;/b&gt; PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM PLS SING INSTAGRAM  PLS SING INSTAGRAM PLS SING INSTAGRAM &lt;img src="https://i.imgur.com/aVfGA05.png" /&gt;<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;span class="reply"&gt;| In reply to @AuraFavourite: PLS SING INST...&lt;/span&gt;&lt;br /&gt;<br />
+&lt;span class="nightbot"&gt;&lt;img src="https://i.imgur.com/cIdv7TP.png" alt="mod badge" class="mod" /&gt;&lt;img src="https://static-cdn.jtvnw.net/badges/v1/d12a2e27-16f6-41d0-ab77-b780518f00a3/1" class="mod" /&gt; Nightbot:&lt;/span&gt; You have been timed out for 5 minutes. Please refrain from typing the same message in capslock. &lt;img src="https://i.imgur.com/iRVeF5o.png" /&gt;&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;xsimplicity69:&lt;/b&gt; i've been so excited to hear you sing ever since eugene said you could T_T &lt;3333<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;&lt;img src="https://i.imgur.com/6okd9mP.png" class="mod" /&gt;&lt;img src="https://static-cdn.jtvnw.net/badges/v1/bbbe0db0-a598-423e-86d0-f9fb98ca1933/1" class="mod" /&gt; lyra_vtuber:&lt;/b&gt; BABY UR GONNA SLAY THISSSSSS<br />
+&lt;/p&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p&gt;&lt;b&gt;givememylexapro:&lt;/b&gt; SOULE AND EUGENE BOTH HERE??? girl somebody get taho and avys<br />
+&lt;/p&gt;&lt;/div&gt;</code>
+</p>
+
+<p>
+  <code>&lt;p class="footer"&gt;&lt;span class="footer-send"&gt;Send a message&lt;/span&gt; &lt;span class="footer-chat"&gt;Chat&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;</code>
+</p>
