@@ -1,8 +1,6 @@
 ## Twitch Chat on AO3 (Kinda)
 
-Not 100% accurate. More mimicking the feel than anything. Pretty old looking, but that's just Twitch's chat box style. 😮‍💨 Rounded corners with drop shadows would make it look more 'modern'.
-
-Detailed info on how to make changes to this code on the [AO3 version](https://archiveofourown.org/works/45107263/chapters/113472118#workskin).
+Not 100% accurate. 😮‍💨 Rounded corners with drop shadows would make it look more 'modern'.
 
 This repository also includes the CSS/HTML for the AO3 "fic" itself. I sniped some code from the following people/fics to make it:
 - [Making a variable-width tooltip for mobile and desktop](https://archiveofourown.org/works/38363089) by Akzeal
